@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+ 
+<jwnl_properties language="en">  
+        <version publisher="Princeton" number="2.0" language="en"/>  
+        <dictionary class="net.didion.jwnl.dictionary.FileBackedDictionary">  
+                <param name="morphological_processor" value="net.didion.jwnl.dictionary.DefaultMorphologicalProcessor"/>  
+                <param name="file_manager" value="net.didion.jwnl.dictionary.file_manager.FileManagerImpl">  
+                        <param name="file_type" value="net.didion.jwnl.princeton.file.PrincetonRandomAccessDictionaryFile"/>  
+                        <param name="dictionary_path" value="/media/dilshan/acdbf529-facc-431e-9355-7b7bc7cc4ab9/dilshan/WordNet-2.0/dict/"/>  
+                </param>  
+        </dictionary>  
+        <dictionary_element_factory class="net.didion.jwnl.princeton.data.PrincetonWN17DictionaryElementFactory"/>  
+        <resource class="PrincetonResource"/>  
+</jwnl_properties> 
